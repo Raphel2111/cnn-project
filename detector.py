@@ -2,7 +2,8 @@ from ultralytics import YOLO
 from collections import Counter
 
 # Carga el modelo una vez
-model = YOLO(r"C:\Users\Rafa\Desktop\cuarto año\TFG\TFG\cnn-project\data\raw\runs\detect\train\weights\best.pt")
+model = YOLO("data/raw/runs/detect/train/weights/best.pt")
+
 
 def detectar_objetos(imagen_path):
     results = model(imagen_path)[0]
