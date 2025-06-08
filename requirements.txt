@@ -8,5 +8,5 @@ seaborn
 scikit-learn
 nltk
 spacy
-opencv-python
+opencv-python-headless
 ultralytics
